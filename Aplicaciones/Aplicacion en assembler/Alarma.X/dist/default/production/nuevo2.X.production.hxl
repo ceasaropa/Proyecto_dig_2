@@ -1,0 +1,27 @@
+### HEXMate logfile and output summary ###
+
+### Command-line arguments ###
+ dist/default/production\nuevo2.X.production.hex
+ -Odist/default/production\nuevo2.X.production.hex
+ -logfile=dist/default/production\nuevo2.X.production.hxl
+ -addressing=2
+
+### Memory Usage ###
+ Intel Hex-file ranges:
+  7E4h - 7FFh		(dist/default/production\nuevo2.X.production.hex)
+  400Eh - 400Fh		(dist/default/production\nuevo2.X.production.hex)
+ Unused ranges:
+  0h - 7E3h
+  800h - 400Dh
+
+### Hex Memory Map ###
+ Legend:
+  -- = Unused memory
+  H1 = Intel Hex-file         (dist/default/production\nuevo2.X.production.hex)
+----------------------------------------------------------
+         | 00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F
+----------------------------------------------------------
+000007E0 | -- -- -- -- H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1
+000007F0 | H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1
+----------------------------------------------------------
+00004000 | -- -- -- -- -- -- -- -- -- -- -- -- -- -- H1 H1

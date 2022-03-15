@@ -1,0 +1,96 @@
+Microchip MPLAB XC8 PIC(R) Assembler V2.35
+
+Linker command line:
+
+-W-3 --edf=C:\Program Files\Microchip\xc8\v2.35\pic\dat\en_msgs.txt -cs \
+  -h+dist/default/production\nuevo2.X.production.sym \
+  --cmf=dist/default/production\nuevo2.X.production.cmf -z -Q16F84A \
+  -oC:\Users\comol\AppData\Local\Temp\xcAscms.4 -ver=XC8 PIC(R) Assembler \
+  -Mdist/default/production/nuevo2.X.production.map -E1 --acfsm=1493 \
+  -ACODE=00h-03FFh -ASTRCODE=00h-03FFh -ASTRING=00h-0FFhx4 \
+  -ACONST=00h-0FFhx4 -AENTRY=00h-0FFhx4 -ABANK0=0Ch-04Dh -ARAM=0Ch-04Dh \
+  -AABS1=0Ch-04Fh -ACOMMON=04Eh-04Fh -ASFR0=00h-0Bh -ASFR1=080h-0CDh \
+  -ACONFIG=02007h-02007h -DCONFIG=2 -AIDLOC=02000h-02003h -DIDLOC=2 \
+  -AEEDATA=00h-03Fh/02100h -DEEDATA=2 -DCODE=2 -DSTRCODE=2 -DSTRING=2 \
+  -DCONST=2 -DENTRY=2 build/default/production/newAsmTemplate.o 
+
+Object code version is 3.11
+
+Machine type is 16F84A
+
+
+
+                Name                               Link     Load   Length Selector   Space Scale
+build/default/production/newAsmTemplate.o
+                config                             2007     2007        1        0       4
+                my_code                             3F2      3F2        E      7E4       0
+
+TOTAL           Name                               Link     Load   Length     Space
+        CLASS   CODE           
+                my_code                             3F2      3F2        E         0
+
+        CLASS   STRCODE        
+
+        CLASS   STRING         
+
+        CLASS   CONST          
+
+        CLASS   ENTRY          
+
+        CLASS   BANK0          
+
+        CLASS   RAM            
+
+        CLASS   ABS1           
+
+        CLASS   COMMON         
+
+        CLASS   SFR0           
+
+        CLASS   SFR1           
+
+        CLASS   CONFIG         
+                config                             2007     2007        1         4
+
+        CLASS   IDLOC          
+
+        CLASS   EEDATA         
+
+
+
+SEGMENTS        Name                           Load    Length   Top    Selector   Space  Class     Delta
+
+                my_code                        0003F2  00000E  000400       7E4       0  CODE        2
+
+
+UNUSED ADDRESS RANGES
+
+        Name                Unused          Largest block    Delta
+        BANK0            000C-004D             42           1
+        CODE             0000-03F1            3F2           2
+        COMMON           004E-004F              2           1
+        CONST            0000-03F1            100           2
+        EEDATA           2100-213F             40           2
+        ENTRY            0000-03F1            100           2
+        IDLOC            2000-2003              4           2
+        RAM              000C-004D             42           1
+        SFR0             0000-000B              C           1
+        SFR1             0080-00CD             4E           1
+        STRCODE          0000-03F1            3F2           2
+        STRING           0000-03F1            100           2
+
+                                  Symbol Table
+
+__Hcode        code        0000  __Hconfig      config      2008
+__Hdata        data        0000  __Hedata       edata       0000
+__Hmy_code     my_code     0000  __Hspace_0     (abs)       0400
+__Hspace_1     (abs)       0000  __Hspace_3     (abs)       0000
+__Hspace_4     (abs)       400F  __Hudata       udata       0000
+__Hudata_bank0 udata_bank0 0000  __Lcode        code        0000
+__Lconfig      config      0000  __Ldata        data        0000
+__Ledata       edata       0000  __Lmy_code     my_code     0000
+__Lspace_0     (abs)       0000  __Lspace_1     (abs)       0000
+__Lspace_3     (abs)       0000  __Lspace_4     (abs)       0000
+__Ludata       udata       0000  __Ludata_bank0 udata_bank0 0000
+__S0           (abs)       0400  __S1           (abs)       0000
+__S3           (abs)       0000  

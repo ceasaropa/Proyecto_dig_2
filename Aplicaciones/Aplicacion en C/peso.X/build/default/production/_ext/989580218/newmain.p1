@@ -1,0 +1,298 @@
+Version 4.0 HI-TECH Software Intermediate Code
+[p mainexit ]
+"1500 C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\../include/proc/pic16f877a.h
+[v _TRISD `Vuc ~T0 @X0 0 e@136 ]
+"1256
+[v _OPTION_REG `Vuc ~T0 @X0 0 e@129 ]
+"2230
+[v _ADCON1 `Vuc ~T0 @X0 0 e@159 ]
+"1160
+[v _ADCON0 `Vuc ~T0 @X0 0 e@31 ]
+"2661
+[v _RA0 `Vb ~T0 @X0 0 e@40 ]
+"26 ../../Documents/Ejemplos_lcd_teclado_adc/Manejo_adc/lcd.h
+[; ;../../Documents/Ejemplos_lcd_teclado_adc/Manejo_adc/lcd.h: 26: void Lcd_Init(void);
+[v _Lcd_Init `(v ~T0 @X0 0 ef ]
+[v F36 `(v ~T0 @X0 1 tf1`ul ]
+"12 C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\builtins.h
+[v __delay `JF36 ~T0 @X0 0 e ]
+[p i __delay ]
+"1166 C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\../include/proc/pic16f877a.h
+[s S46 :1 `uc 1 :1 `uc 1 :1 `uc 1 :3 `uc 1 :2 `uc 1 ]
+[n S46 . ADON . GO_nDONE CHS ADCS ]
+"1173
+[s S47 :2 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S47 . . GO CHS0 CHS1 CHS2 ADCS0 ADCS1 ]
+"1182
+[s S48 :2 `uc 1 :1 `uc 1 ]
+[n S48 . . nDONE ]
+"1186
+[s S49 :2 `uc 1 :1 `uc 1 ]
+[n S49 . . GO_DONE ]
+"1165
+[u S45 `S46 1 `S47 1 `S48 1 `S49 1 ]
+[n S45 . . . . . ]
+"1191
+[v _ADCON0bits `VS45 ~T0 @X0 0 e@31 ]
+"2577
+[v _GO `Vb ~T0 @X0 0 e@250 ]
+"1153
+[v _ADRESH `Vuc ~T0 @X0 0 e@30 ]
+"2223
+[v _ADRESL `Vuc ~T0 @X0 0 e@158 ]
+"194 C:\Program Files\Microchip\xc8\v2.35\pic\include\c90\stdio.h
+[v _sprintf `(i ~T0 @X0 0 e1v`*uc`*Cuc ]
+"25 ../../Documents/Ejemplos_lcd_teclado_adc/Manejo_adc/lcd.h
+[; ;../../Documents/Ejemplos_lcd_teclado_adc/Manejo_adc/lcd.h: 25: void Lcd_Set_Cursor(char a, char b);
+[v _Lcd_Set_Cursor `(v ~T0 @X0 0 ef2`uc`uc ]
+"28
+[; ;../../Documents/Ejemplos_lcd_teclado_adc/Manejo_adc/lcd.h: 28: void Lcd_Write_String(char *a);
+[v _Lcd_Write_String `(v ~T0 @X0 0 ef1`*uc ]
+"15 ../../Documents/Ejemplos_lcd_teclado_adc/Manejo_adc/config.h
+[p x FOSC  =  HS  ]
+"16
+[p x WDTE  =  OFF  ]
+"17
+[p x PWRTE  =  OFF  ]
+"18
+[p x BOREN  =  ON  ]
+"19
+[p x LVP  =  OFF  ]
+"20
+[p x CPD  =  OFF  ]
+"21
+[p x WRT  =  OFF  ]
+"22
+[p x CP  =  OFF  ]
+"55 C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\../include/proc/pic16f877a.h
+[; <" INDF equ 00h ;# ">
+"62
+[; <" TMR0 equ 01h ;# ">
+"69
+[; <" PCL equ 02h ;# ">
+"76
+[; <" STATUS equ 03h ;# ">
+"162
+[; <" FSR equ 04h ;# ">
+"169
+[; <" PORTA equ 05h ;# ">
+"219
+[; <" PORTB equ 06h ;# ">
+"281
+[; <" PORTC equ 07h ;# ">
+"343
+[; <" PORTD equ 08h ;# ">
+"405
+[; <" PORTE equ 09h ;# ">
+"437
+[; <" PCLATH equ 0Ah ;# ">
+"457
+[; <" INTCON equ 0Bh ;# ">
+"535
+[; <" PIR1 equ 0Ch ;# ">
+"597
+[; <" PIR2 equ 0Dh ;# ">
+"637
+[; <" TMR1 equ 0Eh ;# ">
+"644
+[; <" TMR1L equ 0Eh ;# ">
+"651
+[; <" TMR1H equ 0Fh ;# ">
+"658
+[; <" T1CON equ 010h ;# ">
+"733
+[; <" TMR2 equ 011h ;# ">
+"740
+[; <" T2CON equ 012h ;# ">
+"811
+[; <" SSPBUF equ 013h ;# ">
+"818
+[; <" SSPCON equ 014h ;# ">
+"888
+[; <" CCPR1 equ 015h ;# ">
+"895
+[; <" CCPR1L equ 015h ;# ">
+"902
+[; <" CCPR1H equ 016h ;# ">
+"909
+[; <" CCP1CON equ 017h ;# ">
+"967
+[; <" RCSTA equ 018h ;# ">
+"1062
+[; <" TXREG equ 019h ;# ">
+"1069
+[; <" RCREG equ 01Ah ;# ">
+"1076
+[; <" CCPR2 equ 01Bh ;# ">
+"1083
+[; <" CCPR2L equ 01Bh ;# ">
+"1090
+[; <" CCPR2H equ 01Ch ;# ">
+"1097
+[; <" CCP2CON equ 01Dh ;# ">
+"1155
+[; <" ADRESH equ 01Eh ;# ">
+"1162
+[; <" ADCON0 equ 01Fh ;# ">
+"1258
+[; <" OPTION_REG equ 081h ;# ">
+"1328
+[; <" TRISA equ 085h ;# ">
+"1378
+[; <" TRISB equ 086h ;# ">
+"1440
+[; <" TRISC equ 087h ;# ">
+"1502
+[; <" TRISD equ 088h ;# ">
+"1564
+[; <" TRISE equ 089h ;# ">
+"1621
+[; <" PIE1 equ 08Ch ;# ">
+"1683
+[; <" PIE2 equ 08Dh ;# ">
+"1723
+[; <" PCON equ 08Eh ;# ">
+"1757
+[; <" SSPCON2 equ 091h ;# ">
+"1819
+[; <" PR2 equ 092h ;# ">
+"1826
+[; <" SSPADD equ 093h ;# ">
+"1833
+[; <" SSPSTAT equ 094h ;# ">
+"2002
+[; <" TXSTA equ 098h ;# ">
+"2083
+[; <" SPBRG equ 099h ;# ">
+"2090
+[; <" CMCON equ 09Ch ;# ">
+"2160
+[; <" CVRCON equ 09Dh ;# ">
+"2225
+[; <" ADRESL equ 09Eh ;# ">
+"2232
+[; <" ADCON1 equ 09Fh ;# ">
+"2291
+[; <" EEDATA equ 010Ch ;# ">
+"2298
+[; <" EEADR equ 010Dh ;# ">
+"2305
+[; <" EEDATH equ 010Eh ;# ">
+"2312
+[; <" EEADRH equ 010Fh ;# ">
+"2319
+[; <" EECON1 equ 018Ch ;# ">
+"2364
+[; <" EECON2 equ 018Dh ;# ">
+[v $root$_main `(v ~T0 @X0 0 e ]
+"14 ../../Documents/Ejemplos_lcd_teclado_adc/Manejo_adc/newmain.c
+[; ;../../Documents/Ejemplos_lcd_teclado_adc/Manejo_adc/newmain.c: 14: int main()
+[v _main `(i ~T0 @X0 1 ef ]
+"15
+[; ;../../Documents/Ejemplos_lcd_teclado_adc/Manejo_adc/newmain.c: 15: {
+{
+[e :U _main ]
+[f ]
+"16
+[; ;../../Documents/Ejemplos_lcd_teclado_adc/Manejo_adc/newmain.c: 16:     int adc = 0;
+[v _adc `i ~T0 @X0 1 a ]
+[e = _adc -> 0 `i ]
+"17
+[; ;../../Documents/Ejemplos_lcd_teclado_adc/Manejo_adc/newmain.c: 17:     float peso = 0;
+[v _peso `f ~T0 @X0 1 a ]
+[e = _peso -> -> 0 `i `f ]
+"18
+[; ;../../Documents/Ejemplos_lcd_teclado_adc/Manejo_adc/newmain.c: 18:     char buffer1[16];
+[v _buffer1 `uc ~T0 @X0 -> 16 `i a ]
+"19
+[; ;../../Documents/Ejemplos_lcd_teclado_adc/Manejo_adc/newmain.c: 19:     TRISD = 0x00;
+[e = _TRISD -> -> 0 `i `uc ]
+"20
+[; ;../../Documents/Ejemplos_lcd_teclado_adc/Manejo_adc/newmain.c: 20:     OPTION_REG = 0b10000110;
+[e = _OPTION_REG -> -> 134 `i `uc ]
+"21
+[; ;../../Documents/Ejemplos_lcd_teclado_adc/Manejo_adc/newmain.c: 21:     ADCON1 = 0b10001000;
+[e = _ADCON1 -> -> 136 `i `uc ]
+"22
+[; ;../../Documents/Ejemplos_lcd_teclado_adc/Manejo_adc/newmain.c: 22:     ADCON0 = 0b01000001;
+[e = _ADCON0 -> -> 65 `i `uc ]
+"23
+[; ;../../Documents/Ejemplos_lcd_teclado_adc/Manejo_adc/newmain.c: 23:     RA0 = 0;
+[e = _RA0 -> -> 0 `i `b ]
+"24
+[; ;../../Documents/Ejemplos_lcd_teclado_adc/Manejo_adc/newmain.c: 24:     int num_huevos=0;
+[v _num_huevos `i ~T0 @X0 1 a ]
+[e = _num_huevos -> 0 `i ]
+"25
+[; ;../../Documents/Ejemplos_lcd_teclado_adc/Manejo_adc/newmain.c: 25:     Lcd_Init();
+[e ( _Lcd_Init ..  ]
+"26
+[; ;../../Documents/Ejemplos_lcd_teclado_adc/Manejo_adc/newmain.c: 26:     _delay((unsigned long)((100)*(4000000/4000.0)));
+[e ( __delay (1 -> * -> -> 100 `i `d / -> -> 4000000 `l `d .4000.0 `ul ]
+"27
+[; ;../../Documents/Ejemplos_lcd_teclado_adc/Manejo_adc/newmain.c: 27: while(1) {
+[e :U 98 ]
+{
+"28
+[; ;../../Documents/Ejemplos_lcd_teclado_adc/Manejo_adc/newmain.c: 28:         ADCON0bits.GO = 1;
+[e = . . _ADCON0bits 1 1 -> -> 1 `i `uc ]
+"29
+[; ;../../Documents/Ejemplos_lcd_teclado_adc/Manejo_adc/newmain.c: 29:         while(GO);
+[e $U 100  ]
+[e :U 101 ]
+[e :U 100 ]
+[e $ _GO 101  ]
+[e :U 102 ]
+"30
+[; ;../../Documents/Ejemplos_lcd_teclado_adc/Manejo_adc/newmain.c: 30:         adc = ADRESH;
+[e = _adc -> _ADRESH `i ]
+"31
+[; ;../../Documents/Ejemplos_lcd_teclado_adc/Manejo_adc/newmain.c: 31:         adc = adc << 8;
+[e = _adc << _adc -> 8 `i ]
+"32
+[; ;../../Documents/Ejemplos_lcd_teclado_adc/Manejo_adc/newmain.c: 32:         adc = adc + ADRESL;
+[e = _adc + _adc -> _ADRESL `i ]
+"33
+[; ;../../Documents/Ejemplos_lcd_teclado_adc/Manejo_adc/newmain.c: 33:         peso = adc*5.0/1024.0;
+[e = _peso -> / * -> _adc `d .5.0 .1024.0 `f ]
+"35
+[; ;../../Documents/Ejemplos_lcd_teclado_adc/Manejo_adc/newmain.c: 35:         num_huevos= peso/0.070;
+[e = _num_huevos -> / -> _peso `d .0.070 `i ]
+"36
+[; ;../../Documents/Ejemplos_lcd_teclado_adc/Manejo_adc/newmain.c: 36:         sprintf(buffer1,"huevos: %02i",num_huevos);
+[e ( _sprintf (1 , (. , &U _buffer1 :s 1C _num_huevos ]
+"37
+[; ;../../Documents/Ejemplos_lcd_teclado_adc/Manejo_adc/newmain.c: 37:         Lcd_Set_Cursor(1,1);
+[e ( _Lcd_Set_Cursor (2 , -> -> 1 `i `uc -> -> 1 `i `uc ]
+"38
+[; ;../../Documents/Ejemplos_lcd_teclado_adc/Manejo_adc/newmain.c: 38:         Lcd_Write_String(buffer1);
+[e ( _Lcd_Write_String (1 &U _buffer1 ]
+"40
+[; ;../../Documents/Ejemplos_lcd_teclado_adc/Manejo_adc/newmain.c: 40:         sprintf(buffer1,"peso: %04.2f",peso);
+[e ( _sprintf (1 , (. , &U _buffer1 :s 2C -> _peso `d ]
+"41
+[; ;../../Documents/Ejemplos_lcd_teclado_adc/Manejo_adc/newmain.c: 41:         Lcd_Set_Cursor(2,1);
+[e ( _Lcd_Set_Cursor (2 , -> -> 2 `i `uc -> -> 1 `i `uc ]
+"42
+[; ;../../Documents/Ejemplos_lcd_teclado_adc/Manejo_adc/newmain.c: 42:         Lcd_Write_String(buffer1);
+[e ( _Lcd_Write_String (1 &U _buffer1 ]
+"48
+[; ;../../Documents/Ejemplos_lcd_teclado_adc/Manejo_adc/newmain.c: 48:         _delay((unsigned long)((300)*(4000000/4000.0)));
+[e ( __delay (1 -> * -> -> 300 `i `d / -> -> 4000000 `l `d .4000.0 `ul ]
+"50
+[; ;../../Documents/Ejemplos_lcd_teclado_adc/Manejo_adc/newmain.c: 50:     }
+}
+[e :U 97 ]
+[e $U 98  ]
+[e :U 99 ]
+"54
+[; ;../../Documents/Ejemplos_lcd_teclado_adc/Manejo_adc/newmain.c: 54:     return 0;
+[e ) -> 0 `i ]
+[e $UE 96  ]
+"55
+[; ;../../Documents/Ejemplos_lcd_teclado_adc/Manejo_adc/newmain.c: 55: }
+[e :UE 96 ]
+}
+[p f _sprintf 8495236 ]
+[a 1C 104 117 101 118 111 115 58 32 37 48 50 105 0 ]
+[a 2C 112 101 115 111 58 32 37 48 52 46 50 102 0 ]
